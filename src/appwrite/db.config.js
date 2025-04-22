@@ -113,7 +113,7 @@ class Service {
     }
   }
   getFilePreview(fileId){
-    return this.storage.getFilePreview(config.appwriteBucketId, fileId);
+    return this.storage.getFileDownload(config.appwriteBucketId, fileId);
   }
 }
 
